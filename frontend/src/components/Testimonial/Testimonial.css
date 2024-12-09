@@ -1,0 +1,106 @@
+/* General Styling for the Testimonials Slider */
+.testimonial {
+  background-color: #fff4e6; /* Light orange background */
+  border: 1px solid #ffdab9; /* Subtle orange border */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  padding: 20px; /* Add padding for spacing */
+  text-align: center; /* Center align text */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.testimonial:hover {
+  transform: translateY(-5px); /* Subtle hover effect */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); /* Elevated shadow on hover */
+}
+
+.testimonial p {
+  color: #555; /* Medium gray text */
+  font-size: 0.9rem; /* Slightly smaller font size */
+  line-height: 1.6; /* Improved readability */
+  margin-bottom: 20px; /* Spacing between text and image */
+}
+
+.testimonial img {
+  width: 70px; /* Fixed size for consistency */
+  height: 70px;
+  border-radius: 50%; /* Make the image circular */
+  border: 3px solid #ffdab9; /* Light orange border for image */
+  object-fit: cover; /* Ensures the image fills its container */
+}
+
+.testimonial h6 {
+  font-size: 1rem; /* Font size for the name */
+  color: #333; /* Dark gray for better contrast */
+  font-weight: 600; /* Slightly bold */
+  margin: 10px 0 5px; /* Spacing above and below */
+}
+
+.testimonial p:nth-child(2) {
+  font-size: 0.8rem; /* Smaller font for role */
+  color: #777; /* Lighter gray */
+}
+
+/* Container alignment */
+.slick-slider {
+  padding: 20px 0;
+}
+
+.slick-slide {
+  display: flex !important; /* Make slider item flex container */
+  justify-content: center; /* Center align slider items */
+  align-items: center;
+}
+
+/* Slick Dots Styling */
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #aaa; /* Default dot color */
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ff7f50; /* Active dot color matches theme */
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .testimonial {
+    padding: 15px;
+  }
+
+  .testimonial img {
+    width: 60px; /* Smaller image for smaller screens */
+    height: 60px;
+  }
+
+  .testimonial h6 {
+    font-size: 0.9rem;
+  }
+
+  .testimonial p {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .testimonial {
+    padding: 10px;
+  }
+
+  .testimonial img {
+    width: 50px; /* Adjust image size */
+    height: 50px;
+  }
+
+  .testimonial h6 {
+    font-size: 0.85rem;
+  }
+
+  .testimonial p {
+    font-size: 0.8rem;
+  }
+}

@@ -8,7 +8,7 @@ import tourImg07 from "../images/tour-img07.jpg";
 
 const tours = [
   {
-    id: "01",
+    id: "67174c529b29b2ceca0b2df0",
     title: "Westminister Bridge",
     city: "London",
     adress: "Somewhere",
@@ -27,7 +27,7 @@ const tours = [
     featured: true,
   },
   {
-    id: "02",
+    id: "67174c529b29b2ceca0b2df1",
     title: "Bali, Indonesia",
     city: "Indonesia",
     adress: "Somewhere",
@@ -46,7 +46,7 @@ const tours = [
     featured: true,
   },
   {
-    id: "03",
+    id: "67174c529b29b2ceca0b2df2",
     title: "Snowy Mountains, Thailand",
     city: "Thailand",
     adress: "Somewhere",
@@ -65,7 +65,7 @@ const tours = [
     featured: true,
   },
   {
-    id: "04",
+    id: "67174c529b29b2ceca0b2df3",
     title: "Beautiful Sunrise, Thailand",
     city: "Thailand",
     adress: "Somewhere",
@@ -84,7 +84,7 @@ const tours = [
     featured: true,
   },
   {
-    id: "05",
+    id: "67174c529b29b2ceca0b2df4",
     title: "Nusa Pendia Bali, Indonesia",
     city: "Indonesia",
     adress: "Somewhere",
@@ -103,7 +103,7 @@ const tours = [
     featured: false,
   },
   {
-    id: "06",
+    id: "67174c529b29b2ceca0b2df5",
     title: "Cherry Blossoms Spring",
     city: "Japan",
     adress: "Somewhere",
@@ -126,7 +126,7 @@ const tours = [
     featured: false,
   },
   {
-    id: "07",
+    id: "67174c529b29b2ceca0b2df6",
     title: "Holmen Lofoten",
     city: "France",
     adress: "Somewhere",
@@ -140,7 +140,7 @@ const tours = [
     featured: false,
   },
   {
-    id: "08",
+    id: "67174c529b29b2ceca0b2df7",
     title: "Snowy Mountains, Thailand",
     city: "Thailand",
     adress: "Somewhere",

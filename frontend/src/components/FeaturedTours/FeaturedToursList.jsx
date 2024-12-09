@@ -12,6 +12,8 @@ const FeaturedToursList = () => {
     `${BASE_URL}/tours/search/getFeaturedTours`
   );
 
+  console.log(featuredTours);
+
   return (
     <>
       {featuredTours?.map((tour) => {

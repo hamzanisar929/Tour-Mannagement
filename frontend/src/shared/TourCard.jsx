@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 const TourCard = ({ tour }) => {
   const { id, title, city, photo, price, featured, reviews } = tour;
+  console.log(id);
 
   const totalRating = reviews?.reduce((acc, item) => acc + item.rating, 0);
   const avgRating =
@@ -47,7 +48,7 @@ const TourCard = ({ tour }) => {
             </h5>
 
             <button className="btn booking__btn">
-              <Link to={`/tours/:${id}`}>Book Now</Link>
+              <Link to={`/tours/${id}`}>Book Now</Link>
             </button>
           </div>
         </CardBody>
